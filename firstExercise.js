@@ -38,18 +38,45 @@ console.log(`The remainder is ${remainder}`);
 // 4.Using the variables you created in the previous step, output the results
 // of the division in the following format: “num1 / num2 = x remainder y.” HINT: Backticks
 
-let num1 = 10;
-let num2 = 4;
+let num3 = 10;
+let num4 = 4;
 let division = num1 / num2;
 console.log(`num1 / num2 = ${division}`);
 
 
 // B. Task 2:Data Types
 // 1. Define the following data types with your own contents[ 'integer', 'decimal', 'string', 'array'(minimum: 3 items), 'Object'(minimum: 4 values)]
-// 2. Once you’ve created the variables, display them to the console
+ // 2. Once you’ve created the variables, display them to the console
 // 3. Use the ‘typeof’ function to check each variable
 // 4. Create an array with numbers and strings. Comment what data type you expect this tobe. Then use the ‘typeof’ function on this array
 // 5. Create a null variable and an undefined variable
+1; let interger = 16
+  let decimal = 16.5
+  let string= '16'
+ let array = [interger, decimal, string]
+ let myObject ={
+    1: 'one',
+    2: 'two',
+    3: 'three',
+    4: 'four',
+ }
+ 2;  console.log(interger)
+  console.log(decimal)
+  console.log(string)
+  console.log(array)
+  console.log(myObject)
+
+ 3;  console.log(typeof interger)
+   console.log(typeof decimal)
+   console.log(typeof string)
+   console.log(typeof array)
+   console.log(typeof myObject)
+
+4; let arrayNumbers = { "one": [1,2,3], "two": [ 4,5,6], "three": [ 7,8,9] }
+ console.log(typeof arrayNumbers)
+
+5;  let nullVariables= { "one": null, "two": null}
+    let undefinedVariables = { "one": null, "two": undefined, "three": undefined}
 
 // ***********C. Task 3. functions and contional statements************g
 // N.B. READ WITH UNDERSTANDING!!!
